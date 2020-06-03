@@ -13,12 +13,12 @@
 
 #Wireframing (attributes and associations)
     Models will be:
-        Person, Bird
+        User, Bird
 
-    Person attributes:
-        name
+    User attributes:
+        user_name
 
-    Person associations:
+    User associations:
         has_many :birds
 
 
@@ -26,10 +26,10 @@
         bird_name
         image
         sound
-        person_id
+        user_id
 
     Bird associations:
-        belongs_to :person
+        belongs_to :user
 
 
 #MVP

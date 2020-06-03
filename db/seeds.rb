@@ -43,6 +43,6 @@ Bird.delete_all
 kiki = User.create(name: "kiki")
 luigi = User.create(name: "luigi")
 
-testBird1 = Bird.create(name: "Bird One", image: "Lovely", sound: "Chirp")
-testBird2 = Bird.create(name: "Bird Two", image: "Pretty", sound: "Tweet")
-testBird3 = Bird.create(name: "Bird Three", image: "Nice", sound: "Trill")
+testBird1 = Bird.create(name: "Bird One", image: "Lovely", sound: "Chirp", user_id: 1)
+testBird2 = Bird.create(name: "Bird Two", image: "Pretty", sound: "Tweet", user_id: 1)
+testBird3 = Bird.create(name: "Bird Three", image: "Nice", sound: "Trill", user_id: 2)

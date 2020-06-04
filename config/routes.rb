@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/test', to: 'application#test'
+
   resources :users
   resources :birds 
   #need to limit to only what is being used in final product 
